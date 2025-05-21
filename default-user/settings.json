@@ -2,11 +2,13 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "NavOpened": "false",
+        "NavOpened": "true",
         "LNavOpened": "true"
     },
     "currentVersion": "1.12.14",
     "username": "User",
+    "active_character": "default_Seraphina.png",
+    "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -371,7 +373,7 @@
         "reduced_motion": false,
         "compact_input_area": true,
         "show_swipe_num_all_messages": "",
-        "auto_connect": false,
+        "auto_connect": true,
         "auto_load_chat": false,
         "forbid_external_media": true,
         "external_media_allowed_overrides": [],
@@ -1062,7 +1064,11 @@
         "note": {
             "default": "",
             "chara": [],
-            "wiAddition": []
+            "wiAddition": [],
+            "defaultPosition": 1,
+            "defaultDepth": 4,
+            "defaultInterval": 1,
+            "defaultRole": 0
         },
         "caption": {
             "refine_mode": false,
@@ -3052,7 +3058,7 @@
         "zerooneai_model": "yi-large",
         "deepseek_model": "deepseek-chat",
         "xai_model": "grok-3-beta",
-        "custom_model": "[yy]gemini-2.5-flash-preview-04-17",
+        "custom_model": "[vh]gemini-2.5-pro-exp-03-25",
         "custom_url": "https://new.api-kk.shop/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
