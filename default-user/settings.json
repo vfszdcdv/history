@@ -6,11 +6,13 @@
         "LNavOpened": "true",
         "SelectedNavTab": "rm_button_characters",
         "Characters_PerPage": "25",
-        "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}"
+        "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
+        "AlertWI_苏墨白.png": "true",
+        "AlertRegex_苏墨白.png": "true"
     },
     "currentVersion": "1.12.14",
     "username": "User",
-    "active_character": "default_Seraphina.png",
+    "active_character": "苏墨白.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1129,7 +1131,9 @@
                 "maxDepth": null
             }
         ],
-        "character_allowed_regex": [],
+        "character_allowed_regex": [
+            "苏墨白.png"
+        ],
         "tts": {
             "voiceMap": "",
             "ttsEnabled": false,
@@ -1392,7 +1396,8 @@
         "default_Seraphina.png": [
             "1345561466591"
         ],
-        "null": []
+        "null": [],
+        "苏墨白.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
