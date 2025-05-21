@@ -4,7 +4,9 @@
         "__migrated": "1",
         "NavOpened": "true",
         "LNavOpened": "true",
-        "SelectedNavTab": "rm_button_characters"
+        "SelectedNavTab": "rm_button_characters",
+        "Characters_PerPage": "25",
+        "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}"
     },
     "currentVersion": "1.12.14",
     "username": "User",
