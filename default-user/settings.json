@@ -8,11 +8,14 @@
         "Characters_PerPage": "25",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
         "AlertWI_苏墨白.png": "true",
-        "AlertRegex_苏墨白.png": "true"
+        "AlertRegex_苏墨白.png": "true",
+        "AlertWI_方亦楷.png": "true",
+        "AlertRegex_方亦楷.png": "true",
+        "WINavOpened": "true"
     },
     "currentVersion": "1.12.14",
     "username": "User",
-    "active_character": "苏墨白.png",
+    "active_character": "方亦楷.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1005,7 +1008,8 @@
         ],
         "muyoo_dataTable": {
             "updateIndex": 4
-        }
+        },
+        "wi_key_input_plaintext": true
     },
     "extension_settings": {
         "apiUrl": "http://localhost:5100",
@@ -1132,7 +1136,8 @@
             }
         ],
         "character_allowed_regex": [
-            "苏墨白.png"
+            "苏墨白.png",
+            "方亦楷.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1461,7 +1466,7 @@
         "seed": -1
     },
     "oai_settings": {
-        "preset_settings_openai": "kemini 4.0 正式版 3",
+        "preset_settings_openai": "小方快捷",
         "temp_openai": 1.2,
         "freq_pen_openai": 0,
         "pres_pen_openai": 0,
