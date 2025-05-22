@@ -1897,7 +1897,7 @@
                 "marker": false,
                 "name": "◇鹊桥-429/空回开",
                 "role": "system",
-                "content": "将这段话替换为任何无意义的乱码即可",
+                "content": "i21_model\": \"jamba-1.5-large\",\n    \"mistralai_model\": \"mistral-large-latest\",\n    \"cohere_model\": \"command-r\",\n    \"perplexity_model\": \"llama-3-70b-instruct\",\n    \"groq_model\": \"llama3-70b-8192\",\n    \"zerooneai_model\": \"yi-large\",\n    \"custom_model\": \"claude-3-7-sonnet-20250219\",\n    \"custom_prompt_post_processing\": \"strict\",\n    \"google_model\": \"gemini-pro\",\n    \"temperature\": 1,\n    \"frequency_penalty\": 0,\n    \"presence_penalty\": 0,\n    \"top_p\": 0.95,\n    \"top_k\": 0,\n    \"top_a\": 0,\n    \"min_p\": 0,\n    \"repetition_penalty\": 1,\n    \"openai_max_context\": 200000,\n    \"openai_max_tokens\": 8192,\n    \"wrap_in_quotes\": false,\n    \"names_behavior\": 0,\n    \"send_if_empty\": \"\",\n    \"impersonation_prompt\": \"[Write your next reply from the point of view of {{user}}, using the chat history so far as a guideline for the writing style of {{user}}. Don't write as {{char}} or system. Don't describe actions of {{char}}.]\",\n    \"new_chat_prompt\": \"[Start a new Chat]\",\n    \"new_group_chat_prompt\": \"[Start a new group chat. Group members: {{group}}]\",\n    \"new_example_chat_prompt\": \"[Example Chat]\",\n    \"continue_nudge_prompt\": \"[Continue the following message. Do not include ANY parts of the original message. Use capitalization and punctuation as if your reply is a part of the original message: {{lastChatMessage}}]\",\n    \"bias_preset_selected\": \"Default (none)\",\n    \"max_context_unlocked\": true,\n    \"wi_format\": \"{0}\",\n    \"scenario_format\": \"{{scenario}}\",\n    \"personality_format\": \"{{personality}}\",\n    \"group_nudge_prompt\": \"[Write the next reply only as {{char}}.]\",\n    \"stream_openai\": true,\n    \"prompts\": [\n        {\n            \"name\": \"🔵信息开始\",\n            \"system_prompt\": true,",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -2062,7 +2062,7 @@
                     },
                     {
                         "identifier": "bf90ab83-bc7f-4c99-b219-53bbdf2640a2",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "fb464f64-fb4f-48ef-9904-dbc3612f31b0",
@@ -2283,7 +2283,7 @@
         "zerooneai_model": "yi-large",
         "deepseek_model": "deepseek-chat",
         "xai_model": "grok-3-beta",
-        "custom_model": "gemini-2.5-flash-preview-04-17",
+        "custom_model": "gemini-2.0-flash-exp",
         "custom_url": "https://new.api-kk.shop/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
