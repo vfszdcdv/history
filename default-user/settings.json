@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "NavOpened": "false",
+        "NavOpened": "true",
         "LNavOpened": "true",
         "SelectedNavTab": "rm_button_characters",
         "Characters_PerPage": "25",
@@ -3072,7 +3072,7 @@
         "zerooneai_model": "yi-large",
         "deepseek_model": "deepseek-chat",
         "xai_model": "grok-3-beta",
-        "custom_model": "[vh]gemini-2.5-pro-exp-03-25",
+        "custom_model": "[yy]gemini-2.5-flash-preview-04-17",
         "custom_url": "https://new.api-kk.shop/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
