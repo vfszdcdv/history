@@ -11,7 +11,9 @@
         "AlertRegex_苏墨白.png": "true",
         "AlertWI_方亦楷.png": "true",
         "AlertRegex_方亦楷.png": "true",
-        "WINavOpened": "true"
+        "WINavOpened": "true",
+        "AlertWI_恋与深空1.png": "true",
+        "AlertRegex_恋与深空1.png": "true"
     },
     "currentVersion": "1.12.14",
     "username": "悠悠",
@@ -1205,7 +1207,8 @@
         ],
         "character_allowed_regex": [
             "苏墨白.png",
-            "方亦楷.png"
+            "方亦楷.png",
+            "恋与深空1.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1472,7 +1475,8 @@
         ],
         "null": [],
         "苏墨白.png": [],
-        "方亦楷.png": []
+        "方亦楷.png": [],
+        "恋与深空1.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
