@@ -14,7 +14,7 @@
         "WINavOpened": "true"
     },
     "currentVersion": "1.12.14",
-    "username": "悠悠",
+    "username": "User",
     "active_character": "方亦楷.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
@@ -332,16 +332,16 @@
             "max_additions": 1
         },
         "personas": {
-            "user-default.png": "悠悠"
+            "user-default.png": "User"
         },
         "default_persona": null,
         "persona_descriptions": {
             "user-default.png": {
-                "description": "可爱多代言人",
+                "description": "",
                 "position": 0
             }
         },
-        "persona_description": "可爱多代言人",
+        "persona_description": "",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
