@@ -1467,7 +1467,7 @@
         "seed": -1
     },
     "oai_settings": {
-        "preset_settings_openai": "kemini 4.0 正式版 3",
+        "preset_settings_openai": "小方快捷",
         "temp_openai": 1.2,
         "freq_pen_openai": 0,
         "pres_pen_openai": 0,
@@ -3073,7 +3073,7 @@
         "zerooneai_model": "yi-large",
         "deepseek_model": "deepseek-chat",
         "xai_model": "grok-3-beta",
-        "custom_model": "gemini-2.5-pro-exp-03-25",
+        "custom_model": "gemini-2.5-flash-preview-04-17",
         "custom_url": "https://new.api-kk.shop/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
