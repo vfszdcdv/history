@@ -27,7 +27,9 @@
     "main_api": "openai",
     "world_info_settings": {
         "world_info": {
-            "globalSelect": []
+            "globalSelect": [
+                "🎤方亦楷和他那没存在过的七年之痒（带手机）"
+            ]
         },
         "world_info_depth": 2,
         "world_info_min_activations": 0,
