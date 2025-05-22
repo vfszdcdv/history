@@ -3,7 +3,7 @@
     "accountStorage": {
         "__migrated": "1",
         "NavOpened": "true",
-        "LNavOpened": "false",
+        "LNavOpened": "true",
         "SelectedNavTab": "rm_button_characters",
         "Characters_PerPage": "25",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
@@ -1912,7 +1912,7 @@
                 "marker": false,
                 "name": "字数控制（固定）（均可自改）",
                 "role": "system",
-                "content": "<number_of_words>\nApex will provide content of 500 words in Chinese \n</number_of_words>\n仅对<content>字数做出要求，具体创作字数无需列出，仅遵循字数规范即可\n",
+                "content": "<number _of words>\nApex will provide content no less than 600 words in Chinese\n</number of words>",
                 "injection_position": 1,
                 "injection_depth": 1,
                 "forbid_overrides": false
