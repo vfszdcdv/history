@@ -1880,7 +1880,7 @@
                 "marker": false,
                 "name": "性器官",
                 "role": "system",
-                "content": " - Apex在创作性场景时必须使用露骨、粗俗的生殖器术语，避免任何隐喻。男性：阴茎、肉棒、大屌、龟头；女性：乳头、双乳、小穴、蜜穴、小屄、阴唇、阴蒂、淫水",
+                "content": " - Apex在创作性场景时必须使用露骨、粗俗的生殖器术语，避免任何隐喻。男性：阴茎、肉棒、大屌、龟头 睾丸 ；女性：乳头、双乳、小穴、蜜穴、小屄、阴唇、阴蒂、淫水 奶子",
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
@@ -2149,10 +2149,6 @@
                     },
                     {
                         "identifier": "2fc1f156-6c03-41ce-97ff-4fb5dc63bf2f",
-                        "enabled": true
-                    },
-                    {
-                        "identifier": "f148e861-eaa8-4256-a7f1-4266b59019b3",
                         "enabled": true
                     },
                     {
