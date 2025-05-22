@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "NavOpened": "false",
+        "NavOpened": "true",
         "LNavOpened": "true",
         "SelectedNavTab": "rm_button_characters",
         "Characters_PerPage": "25",
@@ -211,7 +211,7 @@
         "fast_ui_mode": false,
         "avatar_style": 0,
         "chat_display": 1,
-        "chat_width": 85,
+        "chat_width": 58,
         "never_resize_avatars": false,
         "show_card_avatar_urls": false,
         "play_message_sound": false,
