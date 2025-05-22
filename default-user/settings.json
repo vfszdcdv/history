@@ -2362,7 +2362,7 @@
         "zerooneai_model": "yi-large",
         "deepseek_model": "deepseek-chat",
         "xai_model": "grok-3-beta",
-        "custom_model": "[官GCP]gemini-2.5-pro-preview-05-06",
+        "custom_model": "[xy]claude-3-5-sonnet-20241022",
         "custom_url": "https://api.chr1.com/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
