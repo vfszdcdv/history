@@ -13,13 +13,11 @@
         "AlertRegex_方亦楷.png": "true",
         "WINavOpened": "true",
         "AlertWI_恋与深空1.png": "true",
-        "AlertRegex_恋与深空1.png": "true",
-        "AlertWI_陈昭.png": "true",
-        "AlertRegex_陈昭.png": "true"
+        "AlertRegex_恋与深空1.png": "true"
     },
     "currentVersion": "1.12.14",
     "username": "悠悠",
-    "active_character": "陈昭.png",
+    "active_character": "方亦楷.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1254,8 +1252,7 @@
         "character_allowed_regex": [
             "苏墨白.png",
             "方亦楷.png",
-            "恋与深空1.png",
-            "陈昭.png"
+            "恋与深空1.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1466,7 +1463,7 @@
             "config": {
                 "setList": [
                     {
-                        "set": "陈昭",
+                        "set": "幸福降临小陆手心",
                         "isVisible": true
                     }
                 ]
@@ -1524,7 +1521,7 @@
         "苏墨白.png": [],
         "方亦楷.png": [],
         "恋与深空1.png": [],
-        "陈昭.png": []
+        "陆临.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -2311,7 +2308,7 @@
         "zerooneai_model": "yi-large",
         "deepseek_model": "deepseek-chat",
         "xai_model": "grok-3-beta",
-        "custom_model": "gemini-2.5-flash-preview-04-17-thinking",
+        "custom_model": "[xy8]claude-3.7-sonnet",
         "custom_url": "https://api.chr1.com/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
