@@ -2257,7 +2257,7 @@
         "new_group_chat_prompt": "[Start a new group chat. Group members: {{group}}]",
         "new_example_chat_prompt": "[Example Chat]",
         "continue_nudge_prompt": "[Continue the following message. Do not include ANY parts of the original message. Use capitalization and punctuation as if your reply is a part of the original message: {{lastChatMessage}}]",
-        "bias_preset_selected": "Default (none)",
+        "bias_preset_selected": "寻踪",
         "bias_presets": {
             "Default (none)": [],
             "Anti-bond": [
