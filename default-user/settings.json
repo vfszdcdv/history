@@ -1132,23 +1132,6 @@
                 "promptOnly": true
             },
             {
-                "id": "f00498cd-3af9-4c97-9b90-2a8de2a2eb61",
-                "scriptName": "【春潮】用户消息添加tag",
-                "disabled": true,
-                "runOnEdit": true,
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "<Dreamland>\n$1\n</Dreamland>",
-                "trimStrings": [],
-                "placement": [
-                    1
-                ],
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": 1,
-                "markdownOnly": true,
-                "promptOnly": true
-            },
-            {
                 "id": "f0d02a01-faed-41c6-b759-756ff791d9cf",
                 "scriptName": "【春潮】用户消息添加tag",
                 "disabled": true,
@@ -1166,9 +1149,43 @@
                 "promptOnly": true
             },
             {
+                "id": "f00498cd-3af9-4c97-9b90-2a8de2a2eb61",
+                "scriptName": "【春潮】用户消息添加tag",
+                "disabled": true,
+                "runOnEdit": true,
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "<Dreamland>\n$1\n</Dreamland>",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 1,
+                "markdownOnly": true,
+                "promptOnly": true
+            },
+            {
+                "id": "831bf5ba-1b5d-45fb-a30b-626b2f22d2a9",
+                "scriptName": "省略号减少",
+                "disabled": true,
+                "runOnEdit": true,
+                "findRegex": "/([\\u4e00-\\u9fa5])(?:…|……)(\\1)|(?:…|……)/g",
+                "replaceString": "$1",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
+            },
+            {
                 "id": "a14abe67-602f-4fc6-b871-d930f9878227",
                 "scriptName": "去声明新",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/<guifan>[\\s\\S]*?<\\/guifan>|```end/g",
                 "replaceString": "",
@@ -1185,7 +1202,7 @@
             {
                 "id": "e9906c41-e88d-41fb-ab6a-170b3d173574",
                 "scriptName": "删除<thinking>",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": false,
                 "findRegex": "/<thinking>[\\s\\S]*?</thinking>/gm",
                 "replaceString": "",
@@ -1202,7 +1219,7 @@
             {
                 "id": "19a57f2e-7e71-4d25-8644-018a0ab44745",
                 "scriptName": "去空格",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": true,
                 "findRegex": "/([\\u3400-\\u4DBF\\u4E00-\\u9FFF\\uF900-\\uFAFF\\u2E80-\\u2FDF\\u3000-\\u303F\\u31C0-\\u31EF\\uAC00-\\uD7AF\\u2F800-\\u2FA1F])[^\\S\\r\\n]+([\\u3400-\\u4DBF\\u4E00-\\u9FFF\\uF900-\\uFAFF\\u2E80-\\u2FDF\\u3000-\\u303F\\u31C0-\\u31EF\\uAC00-\\uD7AF\\u2F800-\\u2FA1F])/g",
                 "replaceString": "$1$2",
@@ -1234,21 +1251,38 @@
                 "promptOnly": true
             },
             {
-                "id": "831bf5ba-1b5d-45fb-a30b-626b2f22d2a9",
-                "scriptName": "省略号减少",
-                "disabled": false,
-                "runOnEdit": true,
-                "findRegex": "/([\\u4e00-\\u9fa5])(?:…|……)(\\1)|(?:…|……)/g",
-                "replaceString": "$1",
+                "id": "b806456f-9349-47c1-80f7-bc17636a58eb",
+                "scriptName": "删除cot",
+                "findRegex": "/<thinking>[\\s\\S]*?</thinking>/gm",
+                "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
-                "substituteRegex": 0,
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": false,
                 "minDepth": null,
-                "maxDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "2ec481ba-3805-4a84-80d1-7e1a0ba3b0b7",
+                "scriptName": "con",
+                "findRegex": "/<content>[\\s\\S]*?</content>/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
                 "markdownOnly": false,
-                "promptOnly": true
+                "promptOnly": true,
+                "runOnEdit": false,
+                "substituteRegex": false,
+                "minDepth": null,
+                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
@@ -3679,7 +3713,7 @@
         "function_calling": false,
         "names_behavior": 0,
         "continue_postfix": "",
-        "custom_prompt_post_processing": "claude",
+        "custom_prompt_post_processing": "merge",
         "show_thoughts": false,
         "reasoning_effort": "medium",
         "enable_web_search": false,
