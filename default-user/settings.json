@@ -1496,11 +1496,11 @@
             "isEnabled": true,
             "isCombined": true,
             "isPopout": false,
-            "showPopoutButton": true,
+            "showPopoutButton": false,
             "config": {
                 "setList": [
                     {
-                        "set": "幸福降临小陆手心",
+                        "set": "小方快捷",
                         "isVisible": true
                     }
                 ]
@@ -2457,7 +2457,7 @@
         "zerooneai_model": "yi-large",
         "deepseek_model": "deepseek-chat",
         "xai_model": "grok-3-beta",
-        "custom_model": "",
+        "custom_model": "gemini-2.5-flash-preview-04-17",
         "custom_url": "http://www.jiemomiao.com/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
