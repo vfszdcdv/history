@@ -1157,7 +1157,7 @@
                 "placement": [
                     2
                 ],
-                "disabled": true,
+                "disabled": false,
                 "markdownOnly": false,
                 "promptOnly": true,
                 "runOnEdit": false,
@@ -1174,7 +1174,7 @@
                 "placement": [
                     2
                 ],
-                "disabled": true,
+                "disabled": false,
                 "markdownOnly": true,
                 "promptOnly": true,
                 "runOnEdit": true,
@@ -1191,7 +1191,7 @@
                 "placement": [
                     2
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": true,
                 "promptOnly": true,
                 "runOnEdit": true,
@@ -1208,7 +1208,7 @@
                 "placement": [
                     2
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": true,
                 "promptOnly": true,
                 "runOnEdit": true,
@@ -3348,7 +3348,7 @@
                     },
                     {
                         "identifier": "faddc442-a108-464d-8391-73a39e226ae4",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "28ba25cd-35b3-4da0-a7bc-d1215dff02b2",
@@ -3356,7 +3356,7 @@
                     },
                     {
                         "identifier": "d0d496ec-704e-4002-94e4-0907c5776627",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "ca0d801a-784e-49a4-b105-41ece06defdf",
@@ -3613,7 +3613,7 @@
         "zerooneai_model": "yi-large",
         "deepseek_model": "deepseek-chat",
         "xai_model": "grok-3-beta",
-        "custom_model": "[云澈]gemini-2.5-pro-preview-03-25",
+        "custom_model": "gemini-2.5-flash-preview-04-17",
         "custom_url": "http://www.jiemomiao.com/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
