@@ -19,7 +19,7 @@
     },
     "currentVersion": "1.12.14",
     "username": "悠悠",
-    "active_character": "陆临.png",
+    "active_character": "方亦楷.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1251,23 +1251,6 @@
                 "promptOnly": true
             },
             {
-                "id": "b806456f-9349-47c1-80f7-bc17636a58eb",
-                "scriptName": "删除cot",
-                "findRegex": "/<thinking>[\\s\\S]*?</thinking>/gm",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": false,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
                 "id": "2ec481ba-3805-4a84-80d1-7e1a0ba3b0b7",
                 "scriptName": "con",
                 "findRegex": "/<content>[\\s\\S]*?</content>/gm",
@@ -1280,6 +1263,23 @@
                 "markdownOnly": false,
                 "promptOnly": true,
                 "runOnEdit": false,
+                "substituteRegex": false,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "b806456f-9349-47c1-80f7-bc17636a58eb",
+                "scriptName": "删除cot",
+                "findRegex": "/<thinking>[\\s\\S]*?</thinking>/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
                 "substituteRegex": false,
                 "minDepth": null,
                 "maxDepth": null
