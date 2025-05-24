@@ -11,7 +11,11 @@
         "AlertRegex_苏墨白.png": "true",
         "AlertWI_方亦楷.png": "true",
         "AlertRegex_方亦楷.png": "true",
-        "WINavOpened": "true"
+        "WINavOpened": "true",
+        "AlertWI_恋与深空1.png": "true",
+        "AlertRegex_恋与深空1.png": "true",
+        "AlertWI_陆临.png": "true",
+        "AlertRegex_陆临.png": "true"
     },
     "currentVersion": "1.12.14",
     "username": "悠悠",
@@ -25,7 +29,9 @@
     "main_api": "openai",
     "world_info_settings": {
         "world_info": {
-            "globalSelect": []
+            "globalSelect": [
+                "🥺幸福幸福来到小昭身边好不好"
+            ]
         },
         "world_info_depth": 2,
         "world_info_min_activations": 0,
@@ -147,7 +153,7 @@
         "ignore_eos_token": false,
         "spaces_between_special_tokens": true,
         "speculative_ngram": false,
-        "type": "ooba",
+        "type": "generic",
         "mancer_model": "mytholite",
         "togetherai_model": "Gryphe/MythoMax-L2-13b",
         "infermaticai_model": "",
@@ -169,7 +175,9 @@
         ],
         "logit_bias": [],
         "n": 1,
-        "server_urls": {},
+        "server_urls": {
+            "generic": "https://api.tiu.me/v1"
+        },
         "custom_model": "",
         "bypass_status_check": false,
         "openrouter_allow_fallbacks": true,
@@ -177,7 +185,7 @@
         "xtc_probability": 0,
         "nsigma": 0,
         "featherless_model": "",
-        "generic_model": "",
+        "generic_model": "all.gemini-2.5-flash-preview-04-17-thinking",
         "rep_pen_size": 0
     },
     "swipes": true,
@@ -211,7 +219,7 @@
         "fast_ui_mode": false,
         "avatar_style": 0,
         "chat_display": 0,
-        "chat_width": 85,
+        "chat_width": 68,
         "never_resize_avatars": false,
         "show_card_avatar_urls": false,
         "play_message_sound": false,
@@ -352,7 +360,13 @@
         "custom_stopping_strings_macro": true,
         "fuzzy_search": true,
         "encode_tags": false,
-        "servers": [],
+        "servers": [
+            {
+                "label": "kobold",
+                "url": "http://127.0.0.1:5000/api",
+                "lastConnection": 1748009980923
+            }
+        ],
         "bogus_folders": true,
         "zoomed_avatar_magnification": false,
         "show_tag_filters": false,
@@ -383,7 +397,7 @@
         "show_swipe_num_all_messages": "",
         "auto_connect": true,
         "auto_load_chat": false,
-        "forbid_external_media": true,
+        "forbid_external_media": false,
         "external_media_allowed_overrides": [],
         "external_media_forbidden_overrides": [],
         "ui_mode": 1,
@@ -1103,24 +1117,160 @@
             {
                 "id": "2b39ea31-aa9c-4537-b95a-a933dc2717cd",
                 "scriptName": "【Kemini】添加tag",
+                "disabled": true,
+                "runOnEdit": true,
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "<user_input>\n$1\n</user_input>",
                 "trimStrings": [],
                 "placement": [
                     1
                 ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": 1
+                "maxDepth": 1,
+                "markdownOnly": true,
+                "promptOnly": true
+            },
+            {
+                "id": "f0d02a01-faed-41c6-b759-756ff791d9cf",
+                "scriptName": "【春潮】用户消息添加tag",
+                "disabled": true,
+                "runOnEdit": true,
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "<Dreamland>\n$1\n</Dreamland>",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 1,
+                "markdownOnly": true,
+                "promptOnly": true
+            },
+            {
+                "id": "f00498cd-3af9-4c97-9b90-2a8de2a2eb61",
+                "scriptName": "【春潮】用户消息添加tag",
+                "disabled": true,
+                "runOnEdit": true,
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "<Dreamland>\n$1\n</Dreamland>",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 1,
+                "markdownOnly": true,
+                "promptOnly": true
+            },
+            {
+                "id": "831bf5ba-1b5d-45fb-a30b-626b2f22d2a9",
+                "scriptName": "省略号减少",
+                "disabled": true,
+                "runOnEdit": true,
+                "findRegex": "/([\\u4e00-\\u9fa5])(?:…|……)(\\1)|(?:…|……)/g",
+                "replaceString": "$1",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
+            },
+            {
+                "id": "a14abe67-602f-4fc6-b871-d930f9878227",
+                "scriptName": "去声明新",
+                "disabled": true,
+                "runOnEdit": true,
+                "findRegex": "/<guifan>[\\s\\S]*?<\\/guifan>|```end/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": true
+            },
+            {
+                "id": "e9906c41-e88d-41fb-ab6a-170b3d173574",
+                "scriptName": "删除<thinking>",
+                "disabled": true,
+                "runOnEdit": false,
+                "findRegex": "/<thinking>[\\s\\S]*?</thinking>/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": true
+            },
+            {
+                "id": "19a57f2e-7e71-4d25-8644-018a0ab44745",
+                "scriptName": "去空格",
+                "disabled": true,
+                "runOnEdit": true,
+                "findRegex": "/([\\u3400-\\u4DBF\\u4E00-\\u9FFF\\uF900-\\uFAFF\\u2E80-\\u2FDF\\u3000-\\u303F\\u31C0-\\u31EF\\uAC00-\\uD7AF\\u2F800-\\u2FA1F])[^\\S\\r\\n]+([\\u3400-\\u4DBF\\u4E00-\\u9FFF\\uF900-\\uFAFF\\u2E80-\\u2FDF\\u3000-\\u303F\\u31C0-\\u31EF\\uAC00-\\uD7AF\\u2F800-\\u2FA1F])/g",
+                "replaceString": "$1$2",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": true
             },
             {
                 "id": "57a0ff65-de12-4232-840d-00ac8901821f",
                 "scriptName": "【Kemini】移除大小思维链和免责声明",
+                "disabled": true,
+                "runOnEdit": true,
                 "findRegex": "/(<guifan>.*?</guifan>)|(<!-- State(.*?)d(.*?) -->(\\n)?)|(<!-- consider: (.*?) -->(\\n)?)|(.*?</think(ing)?>(\\n)?)|(<thinking?>[\\s\\S]*<\\/thinking?>(\\n)?)/gs",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null,
+                "markdownOnly": true,
+                "promptOnly": true
+            },
+            {
+                "id": "2ec481ba-3805-4a84-80d1-7e1a0ba3b0b7",
+                "scriptName": "con",
+                "findRegex": "/<content>[\\s\\S]*?</content>/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": false,
+                "substituteRegex": false,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "b806456f-9349-47c1-80f7-bc17636a58eb",
+                "scriptName": "删除cot",
+                "findRegex": "/<thinking>[\\s\\S]*?</thinking>/gm",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
@@ -1130,14 +1280,16 @@
                 "markdownOnly": true,
                 "promptOnly": true,
                 "runOnEdit": true,
-                "substituteRegex": 0,
+                "substituteRegex": false,
                 "minDepth": null,
                 "maxDepth": null
             }
         ],
         "character_allowed_regex": [
             "苏墨白.png",
-            "方亦楷.png"
+            "方亦楷.png",
+            "恋与深空1.png",
+            "陆临.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1348,7 +1500,7 @@
             "config": {
                 "setList": [
                     {
-                        "set": "小方快捷",
+                        "set": "幸福降临小陆手心",
                         "isVisible": true
                     }
                 ]
@@ -1364,7 +1516,16 @@
             },
             "script": {
                 "global_script_enabled": true,
-                "scriptsRepository": [],
+                "scriptsRepository": [
+                    {
+                        "id": "标签化",
+                        "name": "标签化: 随世界书、预设或链接配置自动开关正则、提示词条目",
+                        "content": "import 'https://fastly.jsdelivr.net/gh/StageDog/tavern_resource/dist/酒馆助手/标签化/index.js'",
+                        "info": "# 标签化: 根据预设自动开关正则、根据模型自动切换破限\n\n**作者:** 青空莉想做舞台少女的狗\n**版本:** 2025/05/15\n**原帖:** [点此跳转](https://discord.com/channels/1291925535324110879/1344362686900605043)\n**源文件:** [点此跳转](https://gitgud.io/StageDog/tavern_resource/-/tree/main/src)\n**说明:** 将酒馆标签化, 允许你根据预设自动开关正则、根据模型自动切换破限等\n\n## 演示视频\n\n- [标签化正则演示](https://gitgud.io/StageDog/tavern_resource/-/raw/main/src/酒馆助手/标签化/正则.mp4)\n- [标签化预设提示词演示](https://gitgud.io/StageDog/tavern_resource/-/raw/main/src/酒馆助手/标签化/预设提示词.mp4)\n\n## 使用说明\n\n- 在\"正则\"/\"预设提示词\"/\"酒馆助手脚本\"名称中添加它所属于的一个或多个`【标签】`\n- 在\"预设\"/\"世界书\"/\"API连接配置\"名称中添加对于它你想要启用的一个或多个`【标签】`\n\n这样一来，在使用\"预设\"/\"世界书\"/\"API连接配置\"时，脚本将会\n\n- 自动开启其对应的`【标签】`\"正则\"/\"预设提示词\"/\"酒馆助手脚本\"\n- 自动关闭没有被对应上的`【标签】`\"正则\"/\"预设提示词\"/\"酒馆助手脚本\"\n- 其他没有`【标签】`的\"正则\"/\"预设提示词\"/\"酒馆助手脚本\"不受任何影响\n\n### 当正则、预设提示词、酒馆助手脚本有多个标签\n\n- `【标签1】【标签2】` 表示\"或者\"，只要\"预设\"/\"世界书\"/\"API连接配置\"名称中有`【标签1】`或`【标签2】`就会启用\n- `【标签1&标签2】`表示\"并且\"，只有\"预设\"/\"世界书\"/\"API连接配置\"名称中同时有`【标签1】`和`【标签2】`才会启用\n",
+                        "buttons": [],
+                        "enabled": false
+                    }
+                ],
                 "characters_with_scripts": []
             },
             "audio": {
@@ -1404,7 +1565,9 @@
         ],
         "null": [],
         "苏墨白.png": [],
-        "方亦楷.png": []
+        "方亦楷.png": [],
+        "恋与深空1.png": [],
+        "陆临.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -2192,7 +2355,7 @@
         "deepseek_model": "deepseek-chat",
         "xai_model": "grok-3-beta",
         "custom_model": "claude-3-5-sonnet-20241022",
-        "custom_url": "https://new.api-kk.shop/v1",
+        "custom_url": "http://www.jiemomiao.com/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
