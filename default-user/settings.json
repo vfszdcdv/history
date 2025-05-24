@@ -1117,7 +1117,7 @@
             {
                 "id": "f0d02a01-faed-41c6-b759-756ff791d9cf",
                 "scriptName": "【春潮】用户消息添加tag",
-                "disabled": true,
+                "disabled": false,
                 "runOnEdit": true,
                 "findRegex": "^([\\s\\S]*)$",
                 "replaceString": "<Dreamland>\n$1\n</Dreamland>",
@@ -1132,19 +1132,19 @@
                 "promptOnly": true
             },
             {
-                "id": "f00498cd-3af9-4c97-9b90-2a8de2a2eb61",
-                "scriptName": "【春潮】用户消息添加tag",
-                "disabled": true,
+                "id": "a7e505ae-f2c1-414e-bce0-9e477282ab98",
+                "scriptName": "【春潮】移除思维链",
+                "disabled": false,
                 "runOnEdit": true,
-                "findRegex": "^([\\s\\S]*)$",
-                "replaceString": "<Dreamland>\n$1\n</Dreamland>",
+                "findRegex": "<think>([\\s\\S]*)</think>",
+                "replaceString": "",
                 "trimStrings": [],
                 "placement": [
-                    1
+                    2
                 ],
                 "substituteRegex": 0,
                 "minDepth": null,
-                "maxDepth": 1,
+                "maxDepth": null,
                 "markdownOnly": true,
                 "promptOnly": true
             },
@@ -2354,7 +2354,7 @@
         "zerooneai_model": "yi-large",
         "deepseek_model": "deepseek-chat",
         "xai_model": "grok-3-beta",
-        "custom_model": "claude-3-5-sonnet-20241022",
+        "custom_model": "gemini-2.5-flash-preview-04-17",
         "custom_url": "http://www.jiemomiao.com/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
