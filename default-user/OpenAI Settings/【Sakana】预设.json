@@ -16,7 +16,7 @@
     "perplexity_model": "llama-3-70b-instruct",
     "groq_model": "llama3-70b-8192",
     "zerooneai_model": "yi-large",
-    "custom_model": "DeepSeek-R1",
+    "custom_model": "gemini-2.5-flash-preview-04-17",
     "custom_url": "http://www.jiemomiao.com/v1",
     "custom_include_body": "",
     "custom_exclude_body": "",
@@ -803,7 +803,7 @@
                 },
                 {
                     "identifier": "4b05dba4-5bbf-4dc3-a3e6-133fbaac2761",
-                    "enabled": true
+                    "enabled": false
                 },
                 {
                     "identifier": "539397c2-fbb0-4e05-9a27-1a183e79e079",
