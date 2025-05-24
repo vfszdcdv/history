@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "__migrated": "1",
-        "NavOpened": "false",
+        "NavOpened": "true",
         "LNavOpened": "true",
         "SelectedNavTab": "rm_button_characters",
         "Characters_PerPage": "25",
@@ -2328,7 +2328,7 @@
                     },
                     {
                         "identifier": "4b05dba4-5bbf-4dc3-a3e6-133fbaac2761",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "539397c2-fbb0-4e05-9a27-1a183e79e079",
@@ -2521,7 +2521,7 @@
         "zerooneai_model": "yi-large",
         "deepseek_model": "deepseek-chat",
         "xai_model": "grok-3-beta",
-        "custom_model": "DeepSeek-R1",
+        "custom_model": "gemini-2.5-flash-preview-04-17",
         "custom_url": "http://www.jiemomiao.com/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
